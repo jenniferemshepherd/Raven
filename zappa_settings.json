@@ -5,7 +5,7 @@
         "profile_name": "raven",
         "project_name": "raven",
         "runtime": "python3.6",
-        "s3_bucket": "zappa-pdtovw3gs",
-	"manage_roles": false
+        "s3_bucket": "zappa-raven-pdtovw3gs",
+        "manage_roles": false
     }
 }

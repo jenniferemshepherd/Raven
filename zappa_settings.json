@@ -2,8 +2,9 @@
     "dev": {
         "app_function": "raven.app",
         "aws_region": "eu-west-1",
-        "project_name": "jmck",
+        "profile_name": "raven",
+        "project_name": "raven",
         "runtime": "python3.6",
-        "s3_bucket": "zappa-raven-bucket2"
+        "s3_bucket": "jmck-raven-3"
     }
 }

@@ -2,8 +2,10 @@
 
 import boto3
 from flask import Flask, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, origins=['http://jmck.raven.s3-website-eu-west-1.amazonaws.com'])
 
 # Initialize dynamodb access
 dynamodb = boto3.resource('dynamodb')
